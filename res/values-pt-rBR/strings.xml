@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">DotExtras</string>
-	<string name="button_pref_title">Tweaks da barra de navegação</string>
-    <string name="ok">Ok</string>
+    <string name="app_name">Dot extras</string>
+	<string name="button_pref_title">Ajustes da barra de navegação</string>
 <!-- SEÇÃO RECENTES -->
     <!-- Painel Recentes -->
-    <string name="recents_panel_title">Painel Recentes</string>
+    <string name="recents_panel_title">Painel recentes</string>
     <string name="show_clear_all_recents_button_title">Botão limpar tudo</string>
     <string name="show_clear_all_recents_button_summary">Mostrar botão limpar tudo</string>
     <string name="recents_clear_all_location_title">Localização do botão limpar tudo</string>
@@ -107,15 +106,23 @@
     <string name="qs_columns_rows_title">Ajustar o número de linhas e colunas</string>
 
     <!-- CR ícones do cabeçalho -->
+	<string name="qs_header_icon_settings">Ajuste dos ícones do cabeçalho das CR</string>
     <string name="qs_settings_icon_title">Atalho das configurações</string>
-    <string name="qs_settings_icon_summary">Desativar o atalho de configurações no cabeçalho</string>
+    <string name="qs_settings_icon_summary">Desative o atalho de configurações no cabeçalho (você não poderá abrir o DotExtras ao pressionar longamente !)</string>
     <string name="qs_edit_title">Ícone de edição</string>
-    <string name="qs_edit_summary">Desativar o ícone de edição da telha no cabeçalho</string>
+    <string name="qs_edit_summary">Desativar o ícone de edição no cabeçalho da telha</string>
     <string name="qs_multiuser_switch_title">Interruptor multi-usuário</string>
     <string name="qs_multiuser_switch_summary">Desativar a opção multi-usuário no cabeçalho</string>
     <string name="qs_expand_indicator_title">Indicador de Expansão</string>
     <string name="qs_expand_indicator_summary">Desativar o indicador de expansão no cabeçalho</string>
-    <string name="qs_top_icon_hide">Alternar a visibilidade dos ícones das configurações rápidas</string>
+	<string name="qs_expand_indicator_title">Indicador de expansão</string>
+    <string name="qs_expand_indicator_summary">Ativar o indicador de expansão (^) no cabeçalho</string>
+    <string name="qs_settings_expanded_title">Configurações avançadas expandidas</string>
+    <string name="qs_settings_expanded_summary">Apenas habilitar o atalho das configurações quando estiver expandido</string>
+	
+	<string name="qs_tile_title_visibility_title">Títulos das telhas das CR</string>
+    <string name="qs_tile_title_visibility_summary_on">Os títulos das telhas das CR agora estão visíveis</string>
+    <string name="qs_tile_title_visibility_summary_off">Os títulos das telhas foram desativados</string>
 
 <!-- SEÇÃO DIVERSOS -->
     <!-- Desativar notificações do FC -->
@@ -141,34 +148,12 @@
     <string name="three_finger_gesture">Gesto de três dedos</string>
     <string name="three_finger_gesture_summary">Deslize três dedos para a captura de tela</string>
 	
-	<!-- SlimSizer  -->
-    <string name="listsystem">lista</string>
-    <string name="sizer_title">Removedor de aplicativos</string>
-    <string name="caution">Cuidado!</string>
-    <string name="sizer_message_startup">Esta ferramenta permite que você exclua aplicativos do sistema. Use com cautela e exclua somente aplicativos que você conhece e são seguros para serem removidos.</string>
-    <string name="cancel">Cancelar</string>
-    <string name="sizer_message_delete">Tem certeza de que deseja excluir este aplicativo?</string>
-    <string name="btn_delete">Excluir os apps selecionados agora!</string>
-    <string name="delete_progress_title">Excluíndo</string>
-    <string name="delete_progress">Os arquivos selecionados estão sendo excluídos...</string>
-    <string name="delete_success">Excluído</string>
-    <string name="delete_fail">Não é possível excluir</string>
-    <string name="btn_profile">Perfil</string>
-    <string name="sizer_message_sdnowrite">Não é possível gravar no cartão SD.</string>
-    <string name="sizer_message_sdnoread">Não é possível ler o cartão SD.</string>
-    <string name="sizer_message_filesuccess">Perfil criado.</string>
-    <string name="sizer_message_filefail">Falha ao criar perfil.</string>
-    <string name="sizer_message_noselect">Nada selecionado.</string>
-    <string name="system_app_remover">Removedor de aplicativo do sistema</string>
-
-
-	
 	<!-- SEÇÃO TELA DE BLOQUEIO -->
 	<!-- Vibração de autenticação de impressão digital -->
 	<string name="fp_tweaks">Ajustes de impressão digital</string>
     <string name="fprint_sucess_vib_title">Vibrar ao autenticar a impressão digital</string>
     <string name="fprint_sucess_vib_summary">Vibração na autenticação de impressão digital bem-sucedida</string>
-
+	
 	<!-- Desbloqueio por impressão digital -->
     <string name="fp_unlock_keystore_title">Desbloqueio por impressão digital</string>
     <string name="fp_unlock_keystore_summary">Desbloqueie o dispositivo com a impressão digital após a reinicialização sem PIN/Senha/Padrão\nNota: sob seu próprio risco!</string>
@@ -194,24 +179,30 @@
     <!-- Toque duas vezes no teclado para dormir -->
     <string name="double_tap_sleep_anywhere_title">Toque duas vezes em qualquer lugar para desligar a tela</string>
 	
-	<!-- SEÇÃO DO VISOR -->
+<!-- SEÇÃO DO VISOR -->
     <!-- Acordar ao plugar -->
     <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar</string>
     <string name="wake_when_plugged_or_unplugged_summary">Ligar a tela ao conectar ou descontar uma fonte de energia</string>
+<!-- Detecção de bolso -->
+    <string name="pocket_judge_title">Detecção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
+    <!-- ANBI -->
+    <string name="anbi_title">Toque acidental</string>
+    <string name="anbi_summary">Impedir a interação com os botões de navegação enquanto a tela está sendo tocada.</string>
 
 <!-- PREFERÊNCIAS DOS APLICATIVOS -->
     <string name="navigation_drawer_open">Abrir a gaveta de navegação</string>
     <string name="navigation_drawer_close">Fechar a gaveta de navegação</string>
     <string name="nav_full_header">Definir o tamanho da visualização da barra de navegação tela cheia</string>
-    <string name="nav_full_summary">Visualização da barra de navegação em tela cheia</string>
-
-    <string name="sys_sucess">Interface do sistema do usuário reniciada com sucesso</string>
+    <string name="nav_full_summary">Visualização da barra de navegação em tela cheia</string>	
+	
+	<string name="sys_sucess">Interface do sistema do usuário reniciada com sucesso</string>
     <string name="action_settings">Configurações</string>
     <string name="title_activity_manager_main">Gerente Droid</string>
-    <!-- Botões -->
+	<!-- Botões -->
     <string name="hide_btn">Esconder</string>
     <string name="show_btn">Mostrar</string>
-    <!-- Layout principal -->
+	<!-- Layout principal -->
     <string name="main_title">Alinhar os Dots</string>
     <string name="main_desc">Alinhe os pontos adequadamente, mas o mais importante, alinhe como você deseja</string>
     <string name="cm_title">Links da comunidade</string>
@@ -242,12 +233,12 @@
 	<string name="informations">Informações</string>
     <string name="cm_apt">Comunidade e aplicação de temas</string>
 	<string name="res_changer">Mudança de resolução</string>
-
-    <!-- Cores do dot -->
+	
+	<!-- Cores do dot -->
     <string name="colors_header">Sinta-se livre para mudar as cores</string>
     <string name="app_theme">Definir tema do aplicativo</string>
-
-    <!-- Drawer Strings -->
+	
+	<!-- Drawer Strings -->
     <string name="action_settings">Configurações</string>
     <string name="main">Principal</string>
     <string name="home">Inicio</string>
@@ -268,7 +259,7 @@
     <string name="about_extras">Sobre Extras</string>
     <string name="supported_devices">Dispositivos suportados</string>
     <string name="about_dot_extras_app">Sobre o aplicativo Dot Extras</string>
-	<string name="dot_version">dot_Ver</string>
+	<string name="dot_version">Versão do Dot</string>
 
     <!-- Path data for portrait battery -->
     <string name="battery_portrait_path_full" translatable="false">M 5 2 H 19 V 21 H 5 V 2 Z</string>
@@ -287,16 +278,16 @@
     <string name="android_version_s">Versão do Android : %s</string>
     <string name="sdk_version_s">Versão SDK : %s</string>
     <string name="chipset_s">Chipset : %s</string>
-    <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">Tweak the DotOS more than is necessary with prebuilt configs</string>
+    <string name="tweak_the_dotos_more_than_is_necessary_with_prebuilt_configs">Ajuste do DotOS mais do que necessário com as configurações pré-construídas</string>
     <string name="control_center">Centro de Controle</string>
     <string name="prebuilt_profiles">Perfis pré-construídos</string>
     <string name="be_free_to_change_colors">Seja livre para mudar as cores</string>
-    <string name="set_application_theme">Set Application Theme</string>
+    <string name="set_application_theme">Definir tema do aplicativo</string>
     <string name="set_navigationview_size_to_fullscreen">Defina o tamanho da visualização de navegação em tela cheia</string>
     <string name="fullscreen_navview">Fullscreen NavView</string>
     <string name="dotos_vx_x">DotOS vX.X</string>
     <string name="build_version_s">Versão da compilação : %s</string>
-    <string name="device_s">Device : %s</string>
+    <string name="device_s">Dispositivo : %s</string>
 
 	<!-- Alternância fácil das CR -->
     <string name="qs_easy_toggle_title">Alternância fácil das configurações rápidas</string>
